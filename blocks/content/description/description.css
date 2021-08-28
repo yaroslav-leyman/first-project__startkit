@@ -1,0 +1,28 @@
+.two-columns {
+  display: flex;
+  margin: 100px auto;
+  width: 80%;
+}
+.two-columns__brief {
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  color: #2f80ed;
+  font-weight: normal;
+}
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  flex-direction: column;
+  align-items: center;
+}
+.two-columns__paragraph {
+  margin: 0;
+  color: #000000;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+span {
+  font-weight: bold;
+}

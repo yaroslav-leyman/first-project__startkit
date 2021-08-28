@@ -1,0 +1,32 @@
+/* outline: 1px solid red-->обозначение */
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: "Inter", "Arial", sans-serif;
+}
+a {
+  color: #2f80ed;
+  text-decoration: none;
+  transition: 0.35s;
+}
+.header__link:hover {
+  opacity: 0.5;
+  transition: 0.35s;
+}
+.feynman__link_mod:hover {
+  opacity: 0.5;
+  transition: 0.35s;
+}
+.khan__buy-link:hover {
+  opacity: 0.5;
+  transition: 0.35s;
+}
+.footer__link:hover {
+  opacity: 0.5;
+  transition: 0.35s;
+}
