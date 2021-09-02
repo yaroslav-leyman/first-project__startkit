@@ -2,37 +2,3 @@
   width: 80%;
   margin: 100px auto;
 }
-.cards {
-  display: flex;
-  width: 920px;
-  flex-wrap: wrap;
-  margin: auto;
-}
-.cards__item {
-  display: flex;
-  width: 240px;
-  margin: 30px;
-  align-content: flex-start;
-}
-.cards__image_theme_img {
-  border-radius: 50%;
-  width: 160px;
-  height: 160px;
-  padding: 60px 40px 43px 40px;
-}
-.cards__title {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-  padding-bottom: 16px;
-}
-.cards__description {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  text-align: center;
-}
-.cards__paragraph {
-  margin: auto;
-  text-align: center;
-}

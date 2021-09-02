@@ -1,0 +1,10 @@
+.footer__link {
+  margin: 0;
+  color: aliceblue;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+.footer__link:hover {
+  opacity: 0.5;
+  transition: 0.35s;
+}

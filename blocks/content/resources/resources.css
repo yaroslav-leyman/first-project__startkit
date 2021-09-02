@@ -1,16 +1,3 @@
 .resources {
   margin-top: 100px;
 }
-.resources__logo-zone {
-  display: flex;
-  justify-content: space-between;
-  width: 1100px;
-  height: 38px;
-  margin: 80px auto 217px auto;
-}
-.resources__logo {
-  display: flex;
-  justify-content: center;
-  width: 270px;
-  height: 38px;
-}

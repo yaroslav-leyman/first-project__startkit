@@ -2,58 +2,8 @@
   display: flex;
   position: relative;
   background-color: #f2f2f2;
-  height: 100px;
+  height: 100vh;
   min-height: 710px;
   max-height: 756px;
   overflow: hidden;
-}
-
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-}
-
-.header__title {
-  display: flex;
-  align-items: center;
-  line-height: 96px;
-  font-size: 102px;
-  font-weight: bold;
-  width: 730px;
-  margin-left: 64px;
-}
-
-.header__subtitle {
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: baseline;
-  bottom: 30px;
-  left: 64px;
-  width: 388px;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.header__main-illustration {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 765px;
-  height: 608px;
-  z-index: 2;
-}
-
-.header__square-pic {
-  position: absolute;
-  top: 64px;
-  right: 0;
-  background-color: #2f80ed;
-  height: 568px;
-  width: 568px;
-  z-index: 1;
-  animation: rotation linear 20s infinite;
 }
