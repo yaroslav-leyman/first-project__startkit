@@ -6,3 +6,6 @@
   font-weight: normal;
   padding-bottom: 30px;
 }
+.two-columns__paragraph:nth-of-type(3n) {
+  padding-bottom: 0;
+}
